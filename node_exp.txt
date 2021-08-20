@@ -1,0 +1,6 @@
+Aug 20 08:21:06 node1 systemd[1]: Started Node Exporter.
+Aug 20 08:21:06 node1 node_exporter[34905]: level=info ts=2021-08-20T08:21:06.665Z caller=node_exporter.go:178 msg="Starting node_exporter" version="(version=1.1.2, branch=HEAD, revision=b597c1244d7bef49>
+Aug 20 08:21:06 node1 node_exporter[34905]: level=info ts=2021-08-20T08:21:06.667Z caller=node_exporter.go:179 msg="Build context" build_context="(go=go1.15.8, user=root@f07de8ca602a, date=20210305-09:29>
+Aug 20 08:21:06 node1 node_exporter[34905]: level=info ts=2021-08-20T08:21:06.674Z caller=filesystem_common.go:74 collector=filesystem msg="Parsed flag --collector.filesystem.ignored-mount-points" flag=^>
+Aug 20 08:21:06 node1 node_exporter[34905]: level=info ts=2021-08-20T08:21:06.674Z caller=filesystem_common.go:76 collector=filesystem msg="Parsed flag --collector.filesystem.ignored-fs-types" flag=^(aut>
+Aug 20 08:21:06 node1 node_exporter[34905]: level=info ts=2021-08-20T08:21:06.675Z caller=node_exporter.go:106 msg="Enabled collectors"
